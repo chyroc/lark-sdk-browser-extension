@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Lark SDK Man",
+  "description": "Lark SDK Browser Extension is used to help you find which SDK method you should use",
+  "version": "0.1",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "permissions": [
+    "storage",
+    "tabs",
+    "declarativeContent",
+    "webRequest",
+    "webRequestBlocking",
+    "http://open.feishu.cn/",
+    "https://open.feishu.cn/"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
