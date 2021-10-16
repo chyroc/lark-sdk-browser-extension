@@ -103,3 +103,7 @@ dist
 # TernJS port file
 .tern-port
 .idea/
+lark-sdk-browser-extension.pem
+lark-sdk-browser-extension.crx
+src.crx
+.DS_Store
